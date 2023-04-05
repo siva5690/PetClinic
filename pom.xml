@@ -446,8 +446,7 @@
 			</plugins>
 		  </build>
 		</profile>
-        <profiles>
-    <profile>
+            <profile>
       <id>sonar</id>
       <activation>
         <activeByDefault>true</activeByDefault>
@@ -462,7 +461,6 @@
         </plugins>
       </build>
     </profile>
-  </profiles>
         <profile>
             <id>less-install</id>
             <build>
